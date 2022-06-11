@@ -1,0 +1,123 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    height: 2rem;
+    align-items: center;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
+.navbar ul li {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.showcase {
+    background-image: url('img/showcase.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    /* margin-bottom: 10rem; */
+}
+
+.showcase h1 {
+    display: flex;
+    color: white;
+    height: 50rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 40rem);
+    grid-template-rows: repeat(2, 23rem);
+    justify-content: center;
+    gap: 5rem;
+}
+
+.card1,
+.card2 {
+    margin-top: 3rem;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    width: 40rem;
+    height: 20rem;
+    background-color: lightblue;
+    box-shadow: -5px 5px 5px grey;
+    border-radius: 5px;
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    height: 4rem;
+}
+
+.links a {
+    color: black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.links {
+    text-align: center;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.skills {
+    border: 3px solid red;
+    margin-top: 2rem;
+}
+
+.about {
+    border: 3px solid green;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact {
+    border: 3px solid blue;
+    margin-bottom: 2rem;
+}

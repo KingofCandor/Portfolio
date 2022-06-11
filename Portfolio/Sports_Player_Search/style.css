@@ -1,0 +1,131 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(25px) brightness(0.9);
+}
+
+h1 {
+    text-align: center;
+    margin: 0rem 1rem;
+    padding: 1rem 0rem 2rem 0rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+        1px 18px 6px rgba(16, 16, 16, 0.4),
+        1px 22px 6px rgba(16, 16, 16, 0.2),
+        1px 25px 6px rgba(16, 16, 16, 0.2),
+        1px 30px 6px rgba(16, 16, 16, 0.4);
+}
+
+.searchForm {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.searchInput {
+    outline: 0;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    width: 40rem;
+    padding-left: 1rem;
+    margin-right: 2rem;
+}
+
+.submitBtn,
+.deleteBtn {
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.8rem 1rem;
+    background: linear-gradient(90deg, rgb(72, 75, 255), rgb(216, 35, 11));
+}
+
+.submitBtn:hover,
+.deleteBtn:hover {
+    filter: brightness(1.1);
+}
+
+.content {
+    border-radius: 10px;
+    margin: 2rem 10rem 0rem 10rem;
+    padding: 2rem;
+    backdrop-filter: blur(25px);
+}
+
+.infoClass {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.nameClass {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.listClass {
+    list-style-type: none;
+}
+
+.descriptClass {
+    margin-top: 1rem;
+}
+
+.deleteBtn {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .searchForm {
+        width: 90%;
+    }
+
+    .searchInput {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+}

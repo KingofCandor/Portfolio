@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <!-- <li><a href="index.html">Home</a></li> -->
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <section class="showcase">
+
+        <h1>I am an aspiring self taught web developer. Welcome to my portfolio. <br><br> -Keith LePoidevin</h1>
+        <!-- <h2>-Keith LePoidevin</h2> -->
+    </section>
+
+    <section class="cards" id="projects">
+        <div class="card card1">
+            <h2>Sports Player Search</h2>
+            <p class="description">This is a project I built using the API from thesportsdb.com. You can input the name
+                of a sports player and it will return any information about that player that is availalbe in the
+                database.</p>
+            <div class="links">
+                <a href="Sports_Player_Search/index.html">View Project</a>
+                <a href="#">View Code</a>
+            </div>
+        </div>
+
+        <div class="card card2">
+            <h2>Memory Game</h2>
+            <p class="description">A classic memory matching game. I added a few features to them game such as the
+                highscore tracker that uses local storage to save even if the browser is closed out. Also, a short
+                message will appear at the end of the game depening on whether or not a new highscore was achieved</p>
+            <div class="links">
+                <a href="Memory_Game/index.html">View Project</a>
+                <a href="#">View Code</a>
+            </div>
+        </div>
+
+        <div class="card card3">
+            <h2>Todo List</h2>
+            <p class="description">As the most commonly suggested first project for an aspiring Javascript developer the
+                Todo List does not require much of an introduction. The star to mark an item as important and the
+                character limit counter are cool extra features. Oh, and then there is the "Easter egg".</p>
+            <div class="links">
+                <a href="Todo_List/index.html">View Project</a>
+                <a href="#">View Code</a>
+            </div>
+        </div>
+
+        <div class="card card4">
+            <h2>MTG Random Card Generator</h2>
+            <p class="description">My second API project is one that I wanted to make a few years ago but didn't have
+                the skills at that time. It uses the API from scryfall.com to pull a random card from Magic the
+                Gathering. It also has a few filters that are able to be applied.</p>
+            <div class="links">
+                <a href="MTG_Random_Card_Generator/index.html">View Project</a>
+                <a href="#">View Code</a>
+            </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ul>
+    </section>
+
+    <section class="about" id="about">
+        <p>My name is Keith LePoidevin and I enjoy watching football and shooting hoops. I also enjoy playing Magic the
+            Gathering, hence the card generator project I created. I am an aspiring self taught web developer. I say
+            aspiring as I am still looking for someone to take a chance on me and provide me with my first job as
+            developer. I continue to code and learn and am only going to get better from here as I become a strong web
+            developer.</p>
+    </section>
+
+    <section class="contact" id="contact">
+        <p>Name</p>
+        <p>Phone Number</p>
+        <p>Email</p>
+        <!-- <p>Github</p> -->
+    </section>
+
+    <footer class="footer">
+        <p>&copy My Portfolio 2022</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

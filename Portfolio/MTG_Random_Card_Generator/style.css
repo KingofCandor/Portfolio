@@ -1,0 +1,108 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(131, 255, 224), rgb(255, 132, 200));
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.radioContainer {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.standardBox {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.standardLabel,
+.tokenLabel,
+.allLabel {
+    font-size: 1.5rem;
+}
+
+.tokenBox {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.allBox {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    cursor: pointer;
+    width: 25rem;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(18, 77, 104);
+    color: white;
+}
+
+button:hover {
+    border-radius: 10px 25px 10px 25px;
+    filter: brightness(1.2);
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .standardLabel,
+    .tokenLabel,
+    .allLabel {
+        font-size: 1rem;
+    }
+
+    .card {
+        width: 15rem;
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .standardLabel,
+    .tokenLabel,
+    .allLabel {
+        font-size: 0.8rem;
+    }
+}
